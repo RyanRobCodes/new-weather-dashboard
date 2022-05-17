@@ -8,6 +8,7 @@ form.addEventListener("submit", e => {
     const inputVal = input.value;
 });
 
+console.log();
 
 fetch(url).then(response => response.json()).then(data => {
 })
